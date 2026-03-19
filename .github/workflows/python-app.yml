@@ -56,4 +56,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: ghcr.io/${{ github.actor }}/tp2:latest
+          tags: ${{ github.repository }}
