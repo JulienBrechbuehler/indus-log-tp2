@@ -56,4 +56,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: ghcr.io/julienbrechbuhler/tp2:latest
+          tags: ghcr.io/julienbrechbuehler/tp2:latest
